@@ -1,0 +1,38 @@
+@font-face {}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #9BB7CC;
+  font-family: "JosefinSans-Medium";
+  color: #282c34;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.containerPage {
+  background-color: #FFF1DB;
+  height: 93vh;
+}
+
+.errorsMessage {
+  color: red;
+}
+
+.menuHeader {
+  background-color: #476780;
+  min-width: 100%;
+}/*# sourceMappingURL=index.css.map */
