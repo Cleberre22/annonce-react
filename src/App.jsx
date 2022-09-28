@@ -13,7 +13,7 @@ import AddCategory from "./pages/dashboard/categories/AddCategory";
 import EditCategory from "./pages/dashboard/categories/EditCategory";
 
 // import Annonces from "./pages/dashboard/annonces/Annonces";
-// import AddAnnonce from "./pages/dashboard/annonces/AddAnnonce";
+import AddAnnonce from "./pages/dashboard/annonces/AddAnnonce";
 // import EditAnnonce from "./pages/dashboard/annonces/EditAnnonce";
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
         <Route path="/dashboard/categories" element={<Categories />} /> 
 {/* 
         <Route path="/dashboard/annonces" element={<Annonces />} /> */}
-        {/* <Route path="/dashboard/annonces/add" element={<AddAnnonce />} /> */}
+        <Route path="/dashboard/annonces/add" element={<AddAnnonce />} />
         {/* <Route path="/dashboard/annonces/edit/:annonces" element={<EditAnnonce />} /> */}
      
      </Routes>
